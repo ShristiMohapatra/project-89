@@ -7,9 +7,9 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 <link rel="stylesheet" type="text/css" href="quiz_game.css">
-<script src="quiz_game_login.js"></script>
+
 </head>
-<body>
+<body bgcolor="red">
     <h4 id="player1_name"></h4> <span id="player1_score"></span>
 	<br><br>
 	<h4 id="player2_name"></h4> <span id="player2_score"></span>
@@ -25,11 +25,14 @@
         
 		<label>Send you math equation: <b style="color: red">Try answering this equation</b></label>
         <br>
-		<input type="text" id="word" class="form-control" placeholder="Word">
+		<input type="number" id="number" class="form-control" placeholder="number 1">
 		<br>
-        <button onclick="addUser()" class="btn btn-success" style= "width:30%;">Send</button>
+		<input type="number" id="number" class="form-control" placeholder="number 2">
+		<br><br>
+        <button onclick="send();" class="btn btn-success" style= "width:30%;">Send</button>
 	</center>
 </div>
 
 <script src="game_page.js"></script>
 </body>
+</html>
