@@ -10,10 +10,10 @@
 
 </head>
 <body bgcolor="red">
-    <h4 id="player_1_name"></h4> <span id="player1_score"></span>
+    <h4 id="player1_name"></h4> <span id="player1_score"></span>
 	<br><br>
-	<h4 id="player_2_name"></h4> <span id="player2_score"></span>
-
+	<h4 id="player2_name"></h4> <span id="player2_score"></span>
+<br>
 <div class="container">
 	<center>
 		<h2 style="color: white;">The Math Quiz Game!</h2>
@@ -22,16 +22,16 @@
 		<div id="output" class="col-lg-6"></div>
 		<br>
 		<br>
-        
-		<label>Send you math equation: <b style="color: red">Try answering this equation</b></label>
+        <h4>number1</h4>
         <br>
-		<input type="number" id="number" class="form-control" placeholder="number 1">
+		<input type="text" id="number1" class="form-control" placeholder="number 1">
 		<br>
-		<input type="number" id="number" class="form-control" placeholder="number 2">
+		<h4>number2</h4>
+		<input type="text" id="number2" class="form-control" placeholder="number 2">
 		<br><br>
-        <button onclick="send()" class="btn btn-success" style= "width:30%;">Send</button>
+        <button onclick="send();" class="btn btn-success" style= "width:30%;">Send</button>
 	</center>
 </div>
-<script src="quiz_game_login.js"></script>
+<script src = "quiz_game.js"></script>
 </body>
 </html>
